@@ -16,7 +16,7 @@ An Aave V2 Yield Source is a wrapper for an Aave V2 money market.  It adheres to
 
 The **protocol** yield source must implement the [protocol yield source interface](./contracts/IProtocolYieldSource.sol).
 
-Note that there are two privileged roles: the owner and the asset manager.  The owner can do every privileged action and determines who is the asset manager.  The asset manager can only transfer tokens out.  The Yield Source should inherity from the OpenZeppelin [AccessControl](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol) contract.
+Note that there are two privileged roles: the owner and the asset manager.  The owner can do every privileged action and determines who is the asset manager.  The asset manager can only transfer tokens out.  The Yield Source should inherit from the OpenZeppelin [AccessControl](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol) contract.
 
 ### Yield Source Stretch Goal
 
